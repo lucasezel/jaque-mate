@@ -1,0 +1,84 @@
+@font-face {
+  font-family: LoveStoryRough;
+  src: url(LoveStoryRough.ttf); }
+
+@keyframes float {
+  0% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(-2px); } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: LoveStoryRough; }
+
+body {
+  background: url(../img/yerbamate.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.navbar {
+  box-shadow: 2px 2px 5px black; }
+  .navbar .nav-item .nav-link {
+    color: #E27469;
+    font-size: 20px; }
+
+.float {
+  animation: float 1s infinite  alternate; }
+
+.bg-img {
+  background: rgba(237, 178, 171, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.bg-img-white {
+  background: rgba(255, 255, 255, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.bg-img-black {
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #F9D6D3;
+  padding: 10px 0; }
+
+#productos article {
+  border: 1px solid black;
+  margin-top: 5px;
+  border-radius: 5px; }
+
+#productos img {
+  filter: grayscale(1); }
+  #productos img:hover {
+    filter: grayscale(0); }
+
+#galeria img {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px; }
+
+.carousel {
+  width: 50%;
+  margin: 0 auto; }
+
+.copy-jm {
+  box-shadow: 2px 2px 5px #F9D6D3; }
+
+.fab {
+  color: #F9D6D3;
+  margin: 5px 10px 20px 10px; }
+
+#inicio {
+  margin-top: 100px; }

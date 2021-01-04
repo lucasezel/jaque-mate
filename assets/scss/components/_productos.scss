@@ -1,0 +1,15 @@
+#productos {
+    article {
+        border: 1px solid black;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    img {
+        filter: grayscale(1);
+
+        &:hover {
+            filter: grayscale(0);
+        }
+    }
+}

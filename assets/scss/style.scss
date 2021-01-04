@@ -1,0 +1,21 @@
+@font-face {
+    font-family: LoveStoryRough;
+    src: url(LoveStoryRough.ttf);
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-2px); }
+}
+
+@import "base/variables";
+@import "components/general";
+@import "components/nav";
+@import "components/bg";
+@import "components/productos";
+@import "components/galeria";
+@import "components/footer";
+
+#inicio {
+    margin-top: 100px;
+}

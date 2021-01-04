@@ -1,0 +1,14 @@
+.navbar {
+    box-shadow: 2px 2px 5px black;
+
+    .nav-item {
+        .nav-link {
+            color: $color-primario-jm;
+            font-size: 20px;
+        }
+    }
+}
+
+.float {
+    animation: float 1s infinite  alternate;
+  }
